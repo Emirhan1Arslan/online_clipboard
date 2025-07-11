@@ -9,7 +9,8 @@ Flutter tabanlı bu uygulama, kullanıcının panoya kopyaladığı metinleri we
 - 🔐 Firebase Authentication ile oturum açma ve hesap oluşturma
 - ☁️ Firebase Firestore ile bulut veri depolama
 - 🌐 Web platformu desteği
-- 📱 Mobil destek (isteğe bağlı genişletilebilir)
+- 📱 Mobil destek
+
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -36,7 +37,7 @@ flutter pub get
 ### 3. Firebase bağlantısını yapılandırın:
 
 - Firebase projesi oluşturun: https://console.firebase.google.com
-- `web/index.html` dosyasına Firebase konfigürasyon bilgilerini ekleyin
+- Flutter konfigrasyon komutlarını proje dizininde çalıştırın.
 - `lib/firebase_options.dart` dosyasını oluşturmak için aşağıdaki komutu kullanın:
 
 ```bash
@@ -60,8 +61,7 @@ Eklenecek
 ├── main.dart               # Uygulamanın başlangıç noktası
 ├── screens/               # Giriş, kayıt ve ana ekranlar
 ├── services/              # Firebase servisleri
-├── models/                # (Varsa) veri modelleri
-└── utils/                 # Yardımcı sınıflar
+└── models/                # Veri modeli
 ```
 
 ## 👤 Geliştirici
